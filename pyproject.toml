@@ -1,0 +1,13 @@
+[project]
+name = "social-mcp"
+version = "0.1.0"
+description = "MCP server for extracting transcripts from social media content"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "assemblyai>=0.42.0",
+    "httpx>=0.28.1",
+    "instaloader>=4.14.0",
+    "mcp[cli]>=1.10.1",
+    "python-dotenv>=1.0.0",
+]
